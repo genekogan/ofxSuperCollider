@@ -33,6 +33,14 @@ ofxSCBus::ofxSCBus(int rate, int channels, ofxSCServer *server)
 	}
 }
 
+void ofxSCBus::set(float value)
+{
+    ofxOscMessage m;
+    m.setAddress("/c_set");
+    m.addIntArg(index);
+    m.addIntArg(value);
+    server->sendMsg(m);
+}
 
 void ofxSCBus::free()
 {

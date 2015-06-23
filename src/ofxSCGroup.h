@@ -23,16 +23,16 @@ class ofxSCGroup : public ofxSCNode
 {
 public:	
 	ofxSCGroup() : ofxSCNode() {}
-	~ofxSCGroup();
+    ~ofxSCGroup() { }
 
 	ofxSCGroup (const ofxSCGroup & other) { copy (other); }
 	ofxSCGroup& operator= (const ofxSCGroup & other) { return copy(other); }
 
 	/// for operator= and copy constructor
-	ofxSCGroup & copy(const ofxSCGroup & other);
+    ofxSCGroup & copy(const ofxSCGroup & other) { /* needs to be implemented */ }
 	
 	void create(int position = 0, int groupID = 1);
-	void freeAll();
+    void freeAll() { /* needs to be implemented */ }
 		
 protected:
 };

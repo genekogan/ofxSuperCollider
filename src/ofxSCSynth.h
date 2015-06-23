@@ -25,6 +25,8 @@ class ofxSCSynth : public ofxSCNode
 public:	
 	ofxSCSynth(string name = "sine", ofxSCServer *server = ofxSCServer::local());
 	~ofxSCSynth();
+    
+    string getName() {return name;}
 
 	ofxSCSynth (const ofxSCSynth & other) { copy (other); }
 	ofxSCSynth& operator= (const ofxSCSynth & other) { return copy(other); }

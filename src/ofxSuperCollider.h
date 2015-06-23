@@ -40,7 +40,6 @@ enum rates
 
 #include "ofxSCServer.h"
 #include "ofxSCNode.h"
-#include "ofxSCServer.h"
 #include "ofxSCSynth.h"
 #include "ofxSCGroup.h"
 #include "ofxSCBus.h"
