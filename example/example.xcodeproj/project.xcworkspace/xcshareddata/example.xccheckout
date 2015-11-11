@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>668C00E5-5F89-455F-9C72-250F3346D872</string>
+	<key>IDESourceControlProjectName</key>
+	<string>example</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B98AC68A3D3495FE218531697E472BA642EC807A</key>
+		<string>https://github.com/genekogan/ofxSuperCollider.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>example/example.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B98AC68A3D3495FE218531697E472BA642EC807A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/genekogan/ofxSuperCollider.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B98AC68A3D3495FE218531697E472BA642EC807A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B98AC68A3D3495FE218531697E472BA642EC807A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxSuperCollider</string>
+		</dict>
+	</array>
+</dict>
+</plist>
