@@ -23,6 +23,7 @@ void ofApp::setup()
     playbuf = new ofxSCSynth("playbuf_1");
     playbuf->set("bufnum", buffer->index);
     playbuf->set("outbus", bus->index);
+    playbuf->create();
     
     delay = new ofxSCSynth("fx_delay");
     delay->set("wet", 0.4);
@@ -31,6 +32,7 @@ void ofApp::setup()
     delay->set("inbus", bus->index);
     delay->set("outbus", 0);
     delay->addToTail();
+    delay->create();
     
     //--------------------------------------------------------------
     // Drawing setup
@@ -124,7 +126,7 @@ void ofApp::mousePressed(int x, int y, int button)
     else if (button == 2)
     {
         playbuf->set("rate", 2.0f * x / ofGetWidth());
-        playbuf->grain();
+        playbuf->create();
         
         ofSetColor(255, 255, 0, 200);
         ofTriangle(x, y - 10, x + 10, y + 10, x - 10, y + 10);
